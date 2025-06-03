@@ -10,6 +10,10 @@ import SkillsMain from "./components/skillsSection/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
 import SubHeroMain from "./components/subHeroSection/SubHeroMain";
 
+// Import the CertificatesMain component
+import CertificatesMain from "./components/certificatesSection/CertificatesMain";
+
+
 function App() {
   return (
     <main className="font-body text-white relative overflow-hidden">
@@ -22,6 +26,8 @@ function App() {
       <SubSkills />
       <ExperienceMain />
       <ProjectsMain />
+      {/* Render the CertificatesMain component here */}
+      <CertificatesMain />
       <ContactMeMain />
       <FooterMain />
     </main>

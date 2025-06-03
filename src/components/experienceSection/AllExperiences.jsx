@@ -7,7 +7,7 @@ const experiences = [
   {
     job: "Front-End Developer",
     company: "VaultofCodes",
-    date: "2022 - Present",
+    date: "2025 - Present",
     responsibilities: [
       "Implementing reusable components.",
       "Participating in large scale application.",
