@@ -12,7 +12,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/WhatsApp_Image_2025-05-30_at_14.38.32_19b7d664-removebg-preview.png"
+        src="/images/WhatsApp_Image_2025-05-30_at_14.38.32_19b7d664-removebg-preview.png"
         
         alt="Tinku Kumar"
         className="max-h-[450px] w-auto"
