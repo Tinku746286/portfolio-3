@@ -12,6 +12,7 @@ const SingleExperience = ({ experience }) => {
     >
       <p className="font-bold text-cyan">{experience.job}</p>
       <p className="text-orange">{experience.company}</p>
+      <p className="text-orange">{experience.college}</p>
       <p className="text-lightGrey">{experience.date}</p>
       <ul className="list-disc mt-4 pl-4">
         {experience.responsibilities.map((resp, index) => {

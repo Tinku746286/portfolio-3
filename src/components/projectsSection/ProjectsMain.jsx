@@ -5,22 +5,22 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
+    name: "Portfolio",
     year: "Mar2022",
     align: "right",
     image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "https://celebrated-pony-189453.netlify.app/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Grand Hotel",
+    year: "Sept2023",
     align: "left",
     image: "../../public/images/website-img-2.webp",
-    link: "#",
+    link: "https://warm-jelly-9c47a2.netlify.app/",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Portfolio",
+    year: "Jan2024",
     align: "right",
     image: "../../public/images/website-img-3.jpg",
     link: "#",
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
